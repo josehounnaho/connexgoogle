@@ -30,7 +30,7 @@ def login_user(email, password):
 
 # Interface utilisateur avec Streamlit
 def main():
-    st.title('Gestion Utilisateurs avec Firebase')
+
 
     # Déclaration de l'état de la session
     session_state = st.session_state.setdefault(
